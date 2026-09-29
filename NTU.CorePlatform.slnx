@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="NTU.CorePlatform.API/NTU.CorePlatform.API.csproj" />
+  <Project Path="NTU.CorePlatform.Application/NTU.CorePlatform.Application.csproj" />
+  <Project Path="NTU.CorePlatform.Domain/NTU.CorePlatform.Domain.csproj" />
+  <Project Path="NTU.CorePlatform.Infrastructure/NTU.CorePlatform.Infrastructure.csproj" />
+  <Project Path="NTU.CorePlatform/NTU.CorePlatform.csproj" />
+</Solution>
