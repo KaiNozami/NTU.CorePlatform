@@ -5,6 +5,7 @@ using System.Reflection.Emit;
 using NTU.CorePlatform.Domain.Common.Events;
 using NTU.CorePlatform.Domain.Entities.Identity;
 using NTU.CorePlatform.Domain.Entities.StudentManagement;
+using NTU.CorePlatform.Domain.Entities.System.Categories;
 
 namespace NTU.CorePlatform.Infrastructure.Persistence.DbContext;
 
@@ -20,6 +21,7 @@ public class ApplicationDbContext : Microsoft.EntityFrameworkCore.DbContext
     // ============================
     public DbSet<User> Users => Set<User>();
     public DbSet<Student> Students => Set<Student>();
+    public DbSet<Country> Countries => Set<Country>();
 
     // ============================
     // Model configuration

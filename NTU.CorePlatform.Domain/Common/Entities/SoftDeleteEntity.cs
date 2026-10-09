@@ -1,6 +1,5 @@
 ﻿using NTU.CorePlatform.Domain.Common.Entities;
 using NTU.CorePlatform.Domain.Common.Events;
-using NTU.CorePlatform.Domain.Common.Events;
 
 namespace NTU.CorePlatform.Domain.Common.Entities;
 
